@@ -8,7 +8,20 @@ body {
     justify-content: center;
 
     align-items: center;
+    position: fixed;
+    bottom: 0px;
 }
 #score {
-
+    position: fixed;
+    text-align: center;
+    top: 2.5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 200%;
+}
+canvas {
+    position: fixed;
+    left: 0%;
+    bottom: 0px;
 }

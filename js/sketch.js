@@ -2,9 +2,10 @@ var bird;
 var pipes = [];
 var score = 0;
 var highScore = 0;
+var cnv;
 
 function setup() {
-    createCanvas(400, 600);
+    cnv = createCanvas(720, 1152);
     bird = new Bird();
     pipes.push(new Pipe());
 }
@@ -20,11 +21,11 @@ function draw() {
 
         var hit = pipes[i].hits(bird);
 
-        if (hit == 1) {
+        if (hit === 1) {
             pipes.length = 1;
             score = 0;
         }
-        if (hit == 2) {
+        if (hit === 2) {
             score++;
             console.log("Not hit")
         }
@@ -34,7 +35,7 @@ function draw() {
         }
     }
 
-    if(frameCount % 60 == 0) {
+    if(frameCount % 60 === 0) {
         pipes.push(new Pipe());
     }
 
@@ -47,7 +48,7 @@ function touchStarted() {
 }
 
 function keyPressed() {
-    if(key == ' ') {
+    if(key === ' ') {
         bird.up();
     }
 }
