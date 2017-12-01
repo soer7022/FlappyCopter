@@ -42,6 +42,10 @@ function draw() {
     document.getElementById("score").innerHTML = "Score: " + score + " High score: " + highScore;
 }
 
+function touchStarted() {
+    bird.up();
+}
+
 function keyPressed() {
     if(key == ' ') {
         bird.up();

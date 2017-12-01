@@ -14,11 +14,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pipe.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Pipe.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Pipe.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="34">
               <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+=======
+            <state relative-caret-position="272">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sketch.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/sketch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="719">
+              <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+>>>>>>> Stashed changes
               <folding />
             </state>
           </provider>
@@ -59,6 +74,7 @@
         <option value="$PROJECT_DIR$/Source/index.html" />
         <option value="$PROJECT_DIR$/js/Pipe.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/sketch.js" />
       </list>
     </option>
   </component>
@@ -160,12 +176,20 @@
       <workItem from="1512120521531" duration="3528000" />
       <workItem from="1512128045325" duration="86000" />
       <workItem from="1512128814284" duration="457000" />
+<<<<<<< Updated upstream
       <workItem from="1512136587045" duration="42000" />
+=======
+      <workItem from="1512136587045" duration="365000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="7406000" />
+=======
+    <option name="totallyTimeSpent" value="7729000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -277,8 +301,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Pipe.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="34">
           <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+=======
+        <state relative-caret-position="272">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/sketch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="45" column="14" lean-forward="false" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+>>>>>>> Stashed changes
           <folding />
         </state>
       </provider>
