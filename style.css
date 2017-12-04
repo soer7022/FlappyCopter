@@ -9,22 +9,22 @@ body {
 
     align-items: center;
     position: absolute;
-    bottom: 0px;
+    bottom: 0rem;
 }
 #score {
     position: absolute;
     text-align: center;
     top: 2.5%;
-    left: 5em;
+    left: 10rem;
     margin-right: -50%;
     transform: translate(-50%,-50%);
-    font-size: 200%;
+    font-size: 1.5rem;
     color: white;
     z-index: 10;
-    width: 400px;
+    width: 15rem;
 }
 canvas {
     position: absolute;
     left: 0%;
-    bottom: 0px;
+    bottom: 0rem;
 }
