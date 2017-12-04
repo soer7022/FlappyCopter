@@ -5,7 +5,7 @@ var highScore = 0;
 var cnv;
 
 function setup() {
-    cnv = createCanvas(720, 1152);
+    cnv = createCanvas(window.innerWidth, window.innerHeight);
     bird = new Bird();
     pipes.push(new Pipe());
 }
